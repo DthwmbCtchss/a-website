@@ -146,15 +146,15 @@ a {
 }
 
 .image-and-text{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-end;
   align-items: center;
-  gap: 10px
+  gap: 10px */
 }
 
 .text-under-image{
-  max-width: 225px;
+  max-width: 200px;
   text-align: center;
 }
 
@@ -167,8 +167,11 @@ a {
 
 .random-info-images{
   display:flex;
-  justify-content: center;
-  gap: 25px
+  justify-content:space-between;
+  gap:25px;
+  margin-left: 25px;
+  margin-right: 25px;
+
 }
 
 .header-links{
